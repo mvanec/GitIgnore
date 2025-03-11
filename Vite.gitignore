@@ -89,5 +89,3 @@ $RECYCLE.BIN/
 **/public/assets/
 **/public/*.cache
 **/public/.DS_Store
-**/vite.config.ts
-**/vite.config.js
