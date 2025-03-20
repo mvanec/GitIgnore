@@ -1,0 +1,100 @@
+# Ignore Visual Studio user-specific and workspace files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Ignore build artifacts
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/ARM/
+**/ARM64/
+**/bin/
+**/obj/
+**/ipch/
+**/out/
+**/build/
+
+# Ignore CMake cache and output (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+cmake_install.cmake
+Makefile
+
+# Ignore compiled libraries and executables
+*.dll
+*.exe
+*.lib
+*.so
+*.a
+*.lo
+*.la
+*.dylib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# Ignore Windows and system-specific files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Ignore log files
+*.log
+*.tlog
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Ignore Qt specific files (if using Qt)
+*.qmake.stash
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Ignore Clang tools (if using clang)
+.clangd/
+.clang-tidy
+.clang-format
+
+# Ignore Rider/JetBrains IDE files
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Ignore Windows package manager and NuGet
+packages/
+*.nupkg
+.project.nuget.cache
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Ignore test result files
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Ignore EditorConfig backup files
+*.editorconfig~
+
+# Ignore Code Coverage results
+*.coverage
+*.coveragejson
+.coverage/*
+TestResults/*
